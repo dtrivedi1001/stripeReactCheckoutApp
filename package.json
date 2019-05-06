@@ -1,0 +1,57 @@
+{
+  "name": "MERN-boilerplate",
+  "version": "1.0.0",
+  "description": "MERN stack project boilerplate",
+  "author": "Dhwani Trivedi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkon/MERN-boilerplate.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack -p --progress --profile --colors && node server",
+    "start:dev": "node server"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.5.0",
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "babel-loader": "^8.0.0-beta.2",
+    "babel-plugin-transform-class-properties": "^7.0.0-beta.3",
+    "babel-plugin-transform-es2015-classes": "^7.0.0-beta.3",
+    "babel-plugin-transform-object-rest-spread": "^7.0.0-beta.3",
+    "connect-history-api-fallback": "^1.6.0",
+    "copy-webpack-plugin": "^5.0.1",
+    "css-loader": "^2.1.1",
+    "express": "^4.16.4",
+    "extract-text-webpack-plugin": "next",
+    "html-webpack-plugin": "^3.2.0",
+    "mongoose": "^5.4.19",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.7.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-stripe-checkout": "^2.6.3",
+    "react-stripe-elements": "^2.0.3",
+    "sass-loader": "^6.0.7",
+    "stripe": "^6.27.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-middleware": "^3.6.1",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-merge": "^4.2.1",
+    "whatwg-fetch": "^3.0.0"
+  }
+}

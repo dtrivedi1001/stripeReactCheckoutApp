@@ -1,0 +1,2 @@
+$ docker run --name stripe-mongo -d -p 27017:27017 mongo:latest
+docker run --link stripe-mongo:mongo -d -p 8081:8081 mongo-express
